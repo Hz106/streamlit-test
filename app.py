@@ -61,9 +61,9 @@ def apply_filter(image, matrix):
     return Image.fromarray(new_img_array)
 
 def main():
-    st.set_page_config(page_title="视觉模拟 - 色盲视界", page_icon="👁️", layout="centered")
+    st.set_page_config(page_title="视觉模拟 - 色盲视界", layout="centered")
     
-    st.title("👁️ 色盲视界模拟器")
+    st.title("色盲视界模拟器")
     st.markdown("从医学视角，探索不同的视觉世界。请上传一张图片，并选择对应的色觉类型进行模拟。")
     
     # 图片上传组件
